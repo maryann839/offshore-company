@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.hero{
+    border: 2px solid black;
+    width: 100%;
+    height: 600px;
+    background-image: url(Group5889.png);  
+    background-size: cover;
+    
+}
+
+.hero nav{
+  
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3%;
+  padding: 0 5%;
+}
+
+.logo{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.logo span{
+    color: orange;
+}
+
+.hero nav ul{
+    list-style: none; 
+    margin-top: 15px;
+}
+
+.hero nav ul li{
+    display: inline-block;
+    padding: 3px 25px;
+    
+}
+
+.hero button{
+    width:200px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: orangered;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+.hero nav ul li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+}
+
+.hero nav ul li a:hover{
+    color: orange;
+}
+
+.section1{
+   width: auto;
+   
+   border: 3px solid red;
+   padding: 0 5%;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container{
+    margin-top: 10%;
+}
+
+.text-container h2{
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.text-container h2 span{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+.text-container p{
+    padding: 30px 0;
+    color: grey;
+}
+
+.img-div{
+    margin-right: -35px;
+}
